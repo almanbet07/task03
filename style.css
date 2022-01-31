@@ -1,0 +1,404 @@
+html *{
+  margin: 0;
+  font-size: 16px;
+  padding: 0;
+  font-family: 'Arvo', sans-serif;
+}
+body{
+  background: #FFF;
+}
+/* .main {
+  display: flex;
+  height: 990px;
+} */
+.side-bar {
+  text-align: center;
+  float: left;
+  width: 15%;
+  height: 100%;
+}
+.right {
+  width: 83%;
+  float: right;
+  border-left: 1px solid #EBEBEB;
+  padding-left: 20px;
+}
+.nav {
+  height: 80px;
+  padding: 20px;
+}
+
+.dashboard {
+  display: flex;
+}
+.dash_left {
+  width: 50%;
+}
+.dash_right {
+  width: 50%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+}
+
+.links {
+  margin:45px;
+  
+}
+
+.links .link{
+  font-size: 14px;
+  /* display: block; */
+  display: flex;
+  align-items: center;
+  color:#C7C7C7;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.links .link img{
+  margin-right: 15px; 
+}
+
+.links .link.active span{
+  color:#197BBD;
+}
+.btn i{
+  color: inherit;
+}
+.btn{
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 14px;
+  border: none;
+  text-decoration: none;
+}
+.btn-primary {
+  background: #FFC145;
+  color: #404040;
+  font-size: 14px;
+}
+
+.premium_block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.sum_up {
+  float:left;
+  background: nlue;
+}
+.sum_up h3 {
+  font-size: 40px;
+  color:#404040;
+  margin: 0;
+}
+.sum_up div {
+  font-size: 16px;
+  color:#AEAEAE;
+}
+
+.right_prof {
+  float:right;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 14px;
+}
+.prof span{
+  margin-left: 5px;
+  font-size: 14px;
+  display: block;
+}
+
+.right_prof img {
+  margin-left: 15px;
+}
+
+.card {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+  /* 1 */
+  padding: 10px;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 28px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+}
+.cards_wrapper {
+  display: flex;
+  
+}
+
+.left_card {
+  width: 70%;
+}
+  
+.right_card {
+  width: 30%;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin: 10px;
+}
+.slider i{
+  font-size: 40px;
+  color: #197BBD;
+}
+.slider img{
+  width: 90%;
+}
+
+.stat_per {
+  width: 100%;
+  height: 10px;
+  background: #F1F1F1;
+  border-radius: 14.6px;
+}
+
+.stat_per .inside{
+  border-radius: 14.6px;
+  width: 30%;
+  background: #197BBD;
+  height: 100%;
+}
+
+.weelly_limit {
+  margin-top: 20px;
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+.right_card {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  
+}
+.right_card .under_text{
+  display: block;
+  font-size: 14px;
+  margin: 5px;
+}
+.balance {
+  margin-top: 10px;
+}
+.balance.main .value{
+  font-size: 30px;
+  color: #197BBD;
+}
+.balance.income .value{
+  color: #439A86;
+}
+.balance.outcome .value{
+  color: #BB4430;
+}
+
+.balance .radio{
+  width: 45px;
+  height: 22px;
+  background: #EBEBEB;
+  border-radius: 13.62px;
+  display: inline-block;
+  text-align: left;
+}
+.radio_inside {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #CDCDCD;
+  display: inline-block;
+
+}
+.transaction_hist {
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+}
+
+.table th {
+  text-align: left;
+  font-size: 14px;
+  padding:10px;
+}
+
+.table tr td{
+  text-align: left;
+  font-size: 14px;
+  padding:10px;
+  padding-top:20px
+}
+
+.gray_bg {
+  background: #EFEFEF;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dash_right {
+  padding: 20px;
+}
+
+.circle_yellow {
+  background: #FFC145;
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goals .title {
+  display: flex;
+  align-items: center;
+}
+
+.goals_slider {
+  display: flex;
+}
+.goals_slider .card{
+  width: 30%;
+  margin-right: 15px;
+}
+
+.goals_slider .big_num {
+  font-size: 23.98px;
+}
+.small_date {
+  font-size: 14px;
+}
+.img {
+  margin-top: 30px;
+}
+.under_img_text {
+  font-size: 20px;
+}
+.outcome_statistics {
+  margin-top: 20px;
+}
+.st {
+  display: flex;
+  align-items: center;
+}
+
+.percentage {
+  margin-left: 10px;
+}
+
+.statistic {
+  display: flex;
+}
+
+.statistic .wrapper {
+  width: 100%;
+}
+
+.rounded_bg {
+  padding: 10px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+
+
+.stat_wrappper {
+  margin-top: 20px;
+}
+
+.shopping .rounded_bg{
+  background: #FFEADA;
+}
+.shopping .inside{
+  width: 52%;
+  background: linear-gradient(270deg, #FCAE73 0%, #F79042 99.18%);
+}
+
+.electronics .rounded_bg{
+  background: #DDF9E4;
+}
+.electronics .inside{
+  width: 21%;
+  background: linear-gradient(90deg, #209D43 0%, #2BC255 100%);
+}
+
+.travels .rounded_bg{
+  background: #E4F0FF;
+}
+.travels .inside{
+  width: 74%;
+  background: #70A6E8;
+}
+
+.new_transactions {
+  display: flex;
+}
+.statuses {
+  display: flex;
+}
+.statuses .status{
+  width: 50px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  white-space: nowrap;
+}
+.statuses .circle_yellow {
+  margin-bottom: 10px;
+}
+
+.new_transactions {
+  margin-top: 20px;
+}
+
+.input_box input{
+  border: #197BBD solid 2px;
+  height: 36px;
+  padding-left:10px;
+  border-radius: 8px;
+}
+
+.input_box {
+  padding: 0px 10px;
+  display: flex;
+}
+
+.input_box .btn {
+  margin-left: 5px;
+  white-space: nowrap;
+}
+
+.rigt_trt img{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.give_text {
+  width: 100px;
+  margin: 10px;
+}
+.give_text span{
+  font-size: 10px;
+}
